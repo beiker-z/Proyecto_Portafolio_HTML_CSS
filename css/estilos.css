@@ -3,7 +3,7 @@
 }
 .lateral{
 
-    background-color:#B0FFB6;
+    background-color:black;
     position: fixed;
     padding: 1em;
     top: 0;
@@ -38,7 +38,7 @@
 }
 /* Informacion */
 .informacion{
-    color: seagreen;
+    color:  #0F6A62;
     position: absolute;
     bottom: 1em;
 }
@@ -58,4 +58,39 @@
     font-size: 12px;
     text-transform: uppercase;
     padding: 0.5em;
+}
+.habilidad--proyecto{
+    background-color:black;
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 0.5em;
+}
+/* Proyectos*/
+
+.proyectos{
+    background-color: #0F6A62;
+    border-style: dashed;
+    border-color: yellow;
+    display: table;
+    margin-left: 350px;
+    padding: 1em;
+}
+
+.proyecto{
+    border-style: dashed;
+    border-color: yellow;
+    display: table-cell;
+    padding: 1em;
+    width: 50%;
+}
+
+.proyecto_imagen{
+    width: 100%;
+}
+
+.proyecto_titulo{
+    color:white;
+    font-size: 18PX;
 }
