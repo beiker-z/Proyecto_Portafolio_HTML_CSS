@@ -1,6 +1,10 @@
 *{
     box-sizing: border-box;
 }
+
+.container{
+    width: 100%;
+}
 .lateral{
 
     background-color:black;
@@ -94,3 +98,49 @@
     color:white;
     font-size: 18PX;
 }
+
+@media screen and (max-width:500px) {
+
+  
+   .lateral{
+       width: 100%;
+       height: auto;
+        position: relative;
+   }
+   .informacion{
+       position: relative;
+   }
+  
+    .proyectos{
+      margin-left: 0;
+        width: 100%;
+    }
+    
+   
+}
+@media screen and (max-width:300px) {
+
+  
+    .lateral{
+        width: 100%;
+        height: auto;
+         position: relative;
+    }
+    .perfil_nombres{
+        position: relative;
+    }
+    .informacion{
+        position: relative;
+    }
+   
+     .proyectos{
+       margin-left: 0;
+         width: 100%;
+     }
+     
+     .proyecto{
+         width: 100%;
+         display: block;
+     }
+    
+ }
