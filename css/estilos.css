@@ -6,14 +6,32 @@
     width: 100%;
 }
 .lateral{
-
-    background-color:black;
+    background-image: radial-gradient(circle at 16.4% 83.6%, #003549 0, #003342 6.25%, #002f3a 12.5%, #002a32 18.75%, #012529 25%, #061f20 31.25%, #061817 37.5%, #030f0e 43.75%, #000000 50%, #000000 56.25%, #000000 62.5%, #000000 68.75%, #000000 75%, #000000 81.25%, #000000 87.5%, #000000 93.75%, #000000 100%);
     position: fixed;
     padding: 1em;
     top: 0;
     bottom: 0;
     left: 0;
-    width: 350px;
+    width: 25%;
+    height: 100%;
+}
+.Principal{
+    background-image: radial-gradient(circle at 45.04% 39.35%, #b9f7ff 0, #9eebfa 12.5%, #7fdef5 25%, #58d0f1 37.5%, #0cc1ed 50%, #00b2ea 62.5%, #00a3e7 75%, #0095e5 87.5%, #0088e2 100%);
+    border-style: dashed;
+    border-color: yellow;
+    display: table;
+    margin-left: 25%;
+    width: 75%;
+    padding: 1em;
+    height: calc(110vh - 5px) !important;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #29597c;
 }
 
 /*Perfil*/
@@ -42,7 +60,7 @@
 }
 /* Informacion */
 .informacion{
-    color:  #0F6A62;
+    color: orange;
     position: absolute;
     bottom: 1em;
 }
@@ -74,11 +92,10 @@
 /* Proyectos*/
 
 .proyectos{
-    background-color: #0F6A62;
+    background:radial-gradient(200px top, ellipse, white, #1162ac, black);
     border-style: dashed;
     border-color: yellow;
     display: table;
-    margin-left: 350px;
     padding: 1em;
 }
 
@@ -95,25 +112,37 @@
 }
 
 .proyecto_titulo{
-    color:white;
+    color:black;
     font-size: 18PX;
 }
 
 @media screen and (max-width:500px) {
 
-  
-   .lateral{
-       width: 100%;
-       height: auto;
-        position: relative;
-   }
-   .informacion{
-       position: relative;
-   }
-  
-    .proyectos{
-      margin-left: 0;
+    .lateral{
         width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .informacion{
+        position: relative;
+    }
+
+    .proyectos{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .Principal{
+        margin-left: 0%;
+        width: 100%;
+        border: none;
+    }
+    .proyecto{
+        width: 45%;
+        display: inline-block;
+        border: none;
+        margin: 0%;
     }
     
    
@@ -133,11 +162,20 @@
         position: relative;
     }
    
+    .Principal{
+        margin-left: 0%;
+        width: 100%;
+        border: none;
+    }
      .proyectos{
        margin-left: 0;
          width: 100%;
      }
-     
+      .Principal{
+      margin-left: 0;
+        width: 100%;
+        height: calc(110vh - 5px) !important;
+    }
      .proyecto{
          width: 100%;
          display: block;
