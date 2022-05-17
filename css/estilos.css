@@ -112,8 +112,10 @@ body::-webkit-scrollbar-thumb{
 }
 
 .proyecto_titulo{
+    text-align: center;
     color:black;
-    font-size: 18PX;
+    font-family: algerian;
+    font-size: 20PX;
 }
 
 @media screen and (max-width:500px) {
