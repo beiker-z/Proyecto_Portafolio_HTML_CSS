@@ -5,6 +5,12 @@
 .container{
     width: 100%;
 }
+.encabezado{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
 .lateral{
     background-image: radial-gradient(circle at 16.4% 83.6%, #003549 0, #003342 6.25%, #002f3a 12.5%, #002a32 18.75%, #012529 25%, #061f20 31.25%, #061817 37.5%, #030f0e 43.75%, #000000 50%, #000000 56.25%, #000000 62.5%, #000000 68.75%, #000000 75%, #000000 81.25%, #000000 87.5%, #000000 93.75%, #000000 100%);
     position: fixed;
